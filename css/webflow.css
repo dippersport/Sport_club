@@ -258,6 +258,7 @@ ol {
   margin-top: 0px;
   margin-bottom: 10px;
   padding-left: 40px;
+  
 }
 .w-list-unstyled {
   padding-left: 0;
@@ -302,6 +303,11 @@ button,
   cursor: pointer;
   -webkit-appearance: button;
 }
+
+
+
+
+
 .w-form {
   margin: 0 0 15px;
 }
@@ -940,7 +946,7 @@ textarea.w-select {
   position: relative;
   height: 300px;
   text-align: center;
-  background: #dddddd;
+  /* background: #dddddd; */
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1009,6 +1015,7 @@ textarea.w-select {
   cursor: pointer;
   margin: 0 3px 0.5em;
   transition: background-color 100ms, color 100ms;
+  left: 190px;
 }
 .w-slider-dot.w-active {
   background-color: #fff;
@@ -1632,6 +1639,7 @@ textarea.w-select {
 .w-nav-menu {
   position: relative;
   float: right;
+  
 }
 [data-nav-menu-open] {
   display: block !important;
@@ -1817,3 +1825,4 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
